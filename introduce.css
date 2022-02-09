@@ -1,0 +1,241 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap__header {
+    background-color: #0DCF5B;
+}
+
+header {
+    height: 64px;
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header h1 {
+    color: blue;
+    line-height: 64px;
+    top: 0px;
+    margin: 0px;
+    left: 10px;
+    display: inline-block;
+}
+
+header h1 strong {
+    color: yellow;
+}
+
+header input {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 530px;
+    outline: none;
+    margin: 0px 30px;
+    position:absolute;
+    top: 17px;
+}
+
+header .cart{
+    position:absolute;
+    right: 20%;
+    top: 20px;
+    font-size: 20px;
+    color: yellow;
+}
+
+header .register {
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+}
+
+header .register > li {
+    display:inline-block;
+
+}
+
+header .register > li > a {
+    text-decoration: none;
+    display:block;
+    margin: 0px 4px;
+    padding: 7px;
+    color: yellow;
+    background-color: blue;
+}
+
+header .register > li > a:hover {
+    background-color:yellow;
+    color: blue;
+}
+
+/* nav */
+
+nav {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 40px;
+    text-align: center;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li > a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    margin: 0px 30px;
+    display:block;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu > li > a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* content */
+
+.content {
+
+}
+
+.content__heading {
+    background-image: url(./img/global.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.content__heading .heading {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.content__heading .heading > h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.content__heading .heading .content__heading-1{
+    margin: 0px;
+}
+
+/* introduce */
+
+.introduce {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.introduce > h1 {
+    font-size: 40px;
+}
+
+.introduce > p {
+    font-size: 30px;
+    line-height:1.8;
+}
+
+/* ability */
+
+.wrap__abilities {
+    background-image: linear-gradient(to right, #4eacfe, #00f2fe);
+    height: 500px;
+}
+
+.abilities{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.abilities > h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.abilities__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ability{
+    width: 30%;
+}
+
+.ability img {
+    width: 100%;
+    height: 200px;
+}
+
+.ability h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+
+/* footer */
+
+.wrap__footer {
+    background-color: black;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0px auto;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.list li {
+    margin-top: 20px;
+}
+
+.list li h3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.list li a:hover {
+    color: yellow;
+}

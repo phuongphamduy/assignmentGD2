@@ -1,0 +1,121 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-image: linear-gradient(to right, #4eacfe, #00f2fe);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+}
+
+.container > a > h1 {
+    margin-bottom: 20px;
+}
+
+.container > a > h1 > strong {
+    color: yellow;
+}
+
+.form {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__input {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.form__input label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form > h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.form__input > input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    font-size: 18px;
+}
+
+.form__input > input:focus{
+    animation: Outline;
+    animation-duration: 0.5s;
+    outline: 2px solid #4eacfe;
+}
+
+.form__input > button {
+    width: 100%;
+    border: none;
+    background-color: #4eacfe;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.form__input > button:hover {
+    background-image: linear-gradient(to right, #4eacfe, #00f2fe);
+}
+
+.form__input > .facebook {
+    background-color: #3B5998;
+    margin-top: 0px;
+}
+
+.form__input > .google{
+    background-color: #E64839;
+    margin-top: 10px;
+}
+
+.form > h3 {
+    margin: 8px 0px;
+}
+
+.form > h3 > a {
+    color: #E64839;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.form__input > button:hover {
+    cursor: pointer;
+}
+
+@keyframes Outline{
+    from{
+        outline: 2px solid #4eacfe;
+        outline-offset: 10px;
+    }
+    to{
+        outline: 2px solid #4eacfe;
+        outline-offset: 0px;
+    }
+}

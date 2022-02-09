@@ -1,0 +1,198 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap__header {
+    background-color: #0DCF5B;
+}
+
+header {
+    height: 64px;
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header h1 {
+    color: blue;
+    line-height: 64px;
+    top: 0px;
+    margin: 0px;
+    left: 10px;
+    display: inline-block;
+}
+
+header h1 strong {
+    color: yellow;
+}
+
+header input {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 530px;
+    outline: none;
+    margin: 0px 30px;
+    position:absolute;
+    top: 17px;
+}
+
+header .cart{
+    position:absolute;
+    right: 20%;
+    top: 20px;
+    font-size: 20px;
+    color: yellow;
+}
+
+header .register {
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+}
+
+header .register > li {
+    display:inline-block;
+
+}
+
+header .register > li > a {
+    text-decoration: none;
+    display:block;
+    margin: 0px 4px;
+    padding: 7px;
+    color: yellow;
+    background-color: blue;
+}
+
+header .register > li > a:hover {
+    background-color:yellow;
+    color: blue;
+}
+
+/* nav */
+
+nav {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 40px;
+    text-align: center;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li > a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    margin: 0px 30px;
+    display:block;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu > li > a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* content */
+
+.wrap__content{
+    background-image: linear-gradient(to right, #4eacfe, #00f2fe);
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.contact{
+    width: 46%;
+    padding-top: 40px;
+    height: 100%;
+}
+
+.contact > h1 {
+    color: white;
+    background-color:blue;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact-number-email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map__container{
+    position: relative;
+    height: 0px;
+    padding-bottom: 71%;
+    overflow: hidden;
+}
+
+.map__container iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* footer */
+
+.wrap__footer {
+    background-color: black;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0px auto;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.list li {
+    margin-top: 20px;
+}
+
+.list li h3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.list li a:hover {
+    color: yellow;
+}
