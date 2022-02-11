@@ -134,6 +134,7 @@ nav {
     list-style: none;
     padding: 0px;
     margin: 0px;
+    position: relative;
 }
 
 .list-skill > li > a {
@@ -147,6 +148,10 @@ nav {
 .list-skill > li > a:hover {
     background-color: yellow;
     color: blue;
+}
+
+.list-skill > li:hover > .sublist__skill{
+    display: block;
 }
 
 .list-skill > li > i {
@@ -182,6 +187,35 @@ nav {
     animation-iteration-count: infinite;
     animation-duration: 0.7s;
     
+}
+
+.sublist__skill {
+    position: absolute;
+    list-style: none;
+    left: 100%;
+    padding: 0px;
+    width: 110%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    display: none;
+}
+
+.sublist__skill > li:first-child{
+    margin-top: 26px;
+}
+
+.sublist__skill-item > a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 5px;
+    display: block;
+    font-size: 18px;
+}
+
+.sublist__skill-item:hover > a {
+    background-color: yellow;
+    color: blue;
 }
 
 /* new */
@@ -220,7 +254,7 @@ nav {
 
 .course img {
     width: 100%;
-    height: 200px;
+    height: 170px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
