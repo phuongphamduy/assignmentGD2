@@ -1,0 +1,413 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap__header {
+    background-color: #0DCF5B;
+}
+
+header {
+    height: 64px;
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header h1 {
+    color: blue;
+    line-height: 64px;
+    top: 0px;
+    margin: 0px;
+    left: 10px;
+    display: inline-block;
+}
+
+header h1 strong {
+    color: yellow;
+}
+
+header input {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 530px;
+    outline: none;
+    margin: 0px 30px;
+    position:absolute;
+    top: 17px;
+}
+
+header .cart{
+    position:absolute;
+    right: 20%;
+    top: 20px;
+    font-size: 20px;
+    color: yellow;
+}
+
+header .register {
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+}
+
+header .register > li {
+    display:inline-block;
+
+}
+
+header .register > li > a {
+    text-decoration: none;
+    display:block;
+    margin: 0px 4px;
+    padding: 7px;
+    color: yellow;
+    background-color: blue;
+}
+
+header .register > li > a:hover {
+    background-color:yellow;
+    color: blue;
+}
+
+/* nav */
+
+nav {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 40px;
+    text-align: center;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li > a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    margin: 0px 30px;
+    display:block;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu > li > a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* content */
+
+.content {
+    background-color: #f3f3f3;
+}
+.wrap__content__heading {
+    background-color:#0b3955;
+}
+
+.content__heading {
+    max-width: 1000px;
+    margin: 0px auto;
+    color: white;
+}
+
+.content__heading_fix{
+    width: 65%;
+}
+
+.content__heading h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.content__heading p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.content__heading-info p {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.content__heading-info p img {
+    height: 30px;
+    border-radius: 20px;
+}
+
+.rate {
+    padding: 0px;
+    display: inline-block;
+}
+
+.rate li {
+    display: inline-block;
+    color: yellow;
+}
+
+/* video */
+
+.video {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.video_fix {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.video_fix > iframe {
+    width: 100%;
+}
+
+/* content__learn */
+
+.content__learn {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.content__learn_fix{
+    width: 65%;
+    background-color: white;
+}
+
+.content__learn_fix  h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.content__learn-list {
+    display: flex;
+    justify-content:space-between;
+}
+
+.content__learn-list > ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.content__learn-list > ul > li {
+    font-size: 18px;
+    background: url(./img/tick.png) no-repeat 10px 13px;
+    background-size: 15px;
+    padding: 8px 0px 8px 30px;
+}
+
+.content__learn-intro {
+
+}
+
+.content__learn-intro h4 {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.content__learn-intro p {
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 0px 10px;
+}
+
+.content__learn-intro > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.content__learn-intro > ul > li {
+    font-size: 18px;
+    background: url(./img/tick.png) no-repeat 10px 13px;
+    background-size: 15px;
+    padding: 8px 0px 8px 30px;
+}
+
+/* content__learn-map */
+
+.content__learn-map {
+
+}
+
+.content__learn-map h4 {
+    padding-left: 40px;
+}
+
+.content__learn-map ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.content__learn-map > ul > li {
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.content__learn-map > ul > li > a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.content__learn-map > ul > li > a:hover {
+    color: aqua;
+}
+
+.content__learn-map > ul > li  i {
+    margin-right: 5px;
+    color: #ccc;
+}
+.content__learn-map > ul > li .time {
+    color: #555;
+    margin: 0px 10px 0px 0px;
+    line-height: 39px;
+}
+
+.content__course {
+    width: 26%;
+    position: fixed;
+    top: 134px;
+    right: 90px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.content__course > strong {
+    font-size: 30px;
+}
+
+.content__course > span {
+    font-size: 10px;
+    line-height: 36px;
+    display: inline;
+    margin: 0px;
+}
+
+.content__course > del {
+    font-size: 18px;
+}
+
+.content__course > .giam {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0px;
+    color: #333;
+}
+
+.content__course > .uudai {
+    margin-bottom: 0px;
+    color: #0bb732;
+    font-weight: 600;
+}
+
+.content__course > .uudai > i {
+    margin-right: 20px;
+}
+
+.content__course > button {
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    margin: 8px auto;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.content__course > button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.content__course .buy {
+    background-color: red;
+}
+
+.content__course .cart {
+    background-color: #0bb732;
+}
+
+.return__money {
+    font-size: 12px;
+    color: #858585;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.content__course > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.content__course > ul > li {
+    padding: 8px 5px;
+    color: #555;
+}
+
+.content__course > ul > li > i {
+    margin-right: 20px;
+}
+
+
+
+/* footer */
+
+.wrap__footer {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0px auto;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.list li {
+    margin-top: 20px;
+}
+
+.list li h3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.list li a:hover {
+    color: yellow;
+}
+
