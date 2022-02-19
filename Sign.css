@@ -69,6 +69,12 @@ body {
     outline: 2px solid #4eacfe;
 }
 
+.form__input > select {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+
 .form__input > button {
     width: 100%;
     border: none;
